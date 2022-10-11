@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">My First App</string>
     <string name="str_tv_message">%1$.2f Celsius</string>
+    <string name="locationText">Location Text:</string>
+    <string name="locationName">enter location name</string>
+    <string name="daysInFutureText">How many days in the future would you like the forecast for?</string>
+    <string name="amountOfDays">enter amount of days</string>
+    <string name="getForecastButton">GET FORECAST</string>
+    <string name="currentLocationForecastButton">CURRENT LOCATION FORECAST</string>
+    <string name="getForecastText">Get forecast for you current location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

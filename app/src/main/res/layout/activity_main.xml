@@ -9,38 +9,62 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/cityName"
+        android:id="@+id/locationText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="City Name"
-        android:textSize="48sp"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="29dp" />
+        android:text="@string/locationText"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="86dp" />
 
     <TextView
-        android:id="@+id/currentC"
-        android:layout_width="75dp"
-        android:layout_height="86dp"
-        android:text="25"
-        android:textSize="60sp"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="93dp" />
+        android:id="@+id/daysInFutureText"
+        android:layout_width="84dp"
+        android:layout_height="91dp"
+        android:text="@string/daysInFutureText"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <EditText
+        android:id="@+id/locationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/locationName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/amountOfDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/amountOfDays"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/getForecastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getForecastButton"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/currentLocationForecastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/currentLocationForecastButton"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="287dp" />
 
     <TextView
-        android:id="@+id/highestC"
-        android:layout_width="73dp"
-        android:layout_height="36dp"
-        android:text="H: 28"
-        android:textSize="28sp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="172dp" />
-
-    <TextView
-        android:id="@+id/lowestC"
-        android:layout_width="73dp"
-        android:layout_height="36dp"
-        android:text="L: 15"
-        android:textSize="28sp"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="172dp" />
+        android:id="@+id/getForecastText"
+        android:layout_width="344dp"
+        android:layout_height="20dp"
+        android:text="@string/getForecastText"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="267dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
