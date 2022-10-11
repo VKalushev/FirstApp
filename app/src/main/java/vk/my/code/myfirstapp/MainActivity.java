@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         HourForecast forecast = new HourForecast(32.4, 1, 4, 12, 6, 21,26);
-        TextView tv = findViewById(R.id.tv_message);
+        TextView tv = findViewById(R.id.highestC);
         String text = getString(R.string.str_tv_message, forecast.getTemperature());
         tv.setText(text);
 //        tv.setText(String.valueOf(forecast.getTemperature()));
