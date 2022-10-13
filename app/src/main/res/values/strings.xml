@@ -8,6 +8,8 @@
     <string name="getForecastButton">GET FORECAST</string>
     <string name="currentLocationForecastButton">CURRENT LOCATION FORECAST</string>
     <string name="getForecastText">Get forecast for you current location</string>
+    <string name="pleaseConfirmText">Please confirm the location you want from the options below</string>
+    <string name="btnGetForecastLocationSelection">GET FORECAST</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
